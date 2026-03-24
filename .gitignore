@@ -1,0 +1,45 @@
+# Build outputs
+bin/
+obj/
+
+# .NET runtime & SDK
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# Rider / VS / VSCode
+.vs/
+.vscode/
+.idea/
+*.DS_Store
+
+# EF Core migrations snapshot (optional — remove if you want to track)
+# Infrasturcture/Migrations/
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+*.secrets.json
+appsettings.Development.json
+
+# OS
+Thumbs.db
+Desktop.ini
