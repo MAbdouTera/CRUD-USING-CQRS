@@ -9,6 +9,6 @@ public class DeleteTodoCommandValidator : AbstractValidator<DeleteToDoCommand>
     {
         RuleFor(x => x.Id)
         .NotEmpty()
-        .WithMessage("Title should not be empty");
+        .WithMessage("Id should not be empty");
     }
 }
